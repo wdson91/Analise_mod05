@@ -2,7 +2,9 @@
 
 ## Introdução
 
-Bem-vindo ao relatório de análise de atrito na organização de marketing. Neste projeto, realizamos uma investigação detalhada sobre os fatores que têm levado à saída de funcionários em toda a nossa equipe de marketing. A retenção de talentos é de suma importância para o sucesso e crescimento de qualquer organização, e nosso foco aqui é entender as causas subjacentes ao atrito e apresentar insights valiosos que possam informar estratégias eficazes de retenção de pessoal.
+Bem-vindo ao relatório de análise de atrito na organização de marketing. Neste projeto, realizamos uma investigação detalhada sobre os fatores que têm levado à saída de funcionários em toda a nossa equipe de marketing.
+
+A retenção de talentos é de suma importância para o sucesso e crescimento de qualquer organização, e nosso foco aqui é entender as causas subjacentes ao atrito e apresentar insights valiosos que possam informar estratégias eficazes de retenção de pessoal.
 
 Sob a orientação do Chief Marketing Officer (CMO), colaboramos estreitamente com nossos Parceiros de Negócios de Recursos Humanos (HRBP) para coletar e analisar dados relevantes. Neste relatório, você encontrará um resumo das descobertas e observações cruciais derivadas da análise, destacando padrões e tendências que podem estar contribuindo para a saída de funcionários em nossa equipe de marketing.
 
