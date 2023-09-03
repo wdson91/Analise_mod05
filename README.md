@@ -16,11 +16,9 @@ Vamos mergulhar nas descobertas e analisar as observações detalhadamente para 
 
 # Análise de Atrito na Organização de Marketing: Entendendo as Causas e Tendências
 
-## Pergunta 1: O que está sendo mostrado aqui? Explicação dos Dados
-
-Certamente, permita-me explicar o conteúdo dos gráficos de maneira clara e concisa.
-
-## Pergunta 2: Observações a partir dos Dados
+<p align="center">
+  <img src="./assets/Dados_HRBP.png" alt="Graficos para Análise">
+</p>
 
 Esses gráficos retratam a relação entre a frequência com que diferentes motivos de saída dos funcionários são mencionados e o impacto percebido desses motivos na decisão efetiva de deixar a empresa. No eixo horizontal (eixo X), temos a frequência de citação de cada motivo, com os valores organizados de forma crescente da esquerda para a direita, variando do "baixo" ao "alto" (ou "mínimo" ao "máximo").
 
@@ -28,7 +26,7 @@ Observando os gráficos, percebemos que um deles representa os resultados de uma
 
 Especificamente, o gráfico da pesquisa de saída demonstra um aumento significativo em questões sensíveis, como "Progressão de carreira", "Mudança de carreira" e "Carga horária". Esses tópicos têm menos registros na pesquisa do RH. Essa discrepância sugere uma falta de confiança por parte dos funcionários na empresa, uma vez que tópicos mais delicados estão sendo mais frequentemente mencionados na pesquisa anônima de saída.
 
-## Pergunta 3: Considerações sobre a Visualização
+## Considerações sobre a Visualização
 
 A visualização atual do gráfico apresenta algumas limitações que podem impactar a interpretação precisa da relação entre frequência e impacto. Aqui estão algumas áreas que poderiam ser melhoradas:
 
@@ -42,7 +40,7 @@ A visualização atual do gráfico apresenta algumas limitações que podem impa
 
 5. **Falta de Títulos e Legendas Descritivos**: A visualização não possui títulos e legendas claros, o que poderia fornecer orientações sobre o que está sendo retratado, os eixos e a interpretação correta das cores ou padrões.
 
-Ao fornecer feedback a quem criou o gráfico, eu faria as seguintes perguntas e sugestões:
+Alguns feedbacks e sugestões:
 
 1. **Como você pode destacar o motivo de saída mais relevante?**: Explorar diferentes formas de destacar visualmente o motivo com maior impacto poderia ajudar os observadores a compreender sua importância de forma mais intuitiva.
 
@@ -54,10 +52,13 @@ Ao fornecer feedback a quem criou o gráfico, eu faria as seguintes perguntas e 
 
 5. **Considere um Formato Alternativo**: Avaliar se outro formato de gráfico, como um gráfico de barras ou um gráfico de dispersão, poderia representar os dados de maneira mais clara e eficaz.
 
-## Pergunta 4: Crie três maneiras diferentes de mostrar esses dados e liste quais são algumas vantagens e insuficiências de cada uma.
+## Alternativas para visualização dos dados.
 
 ## Gráfico de Barras Agrupado
 
+<p align="center">
+  <img src="./assets/Grafico_barras.png" alt="Grafico de Barras">
+</p>
 O uso do Gráfico de Barras Agrupado é uma abordagem eficaz para comparar a frequência de cada motivo de saída nas três categorias diferentes: "Ability to impact", "HRBP" e "Exit survey". Cada motivo é representado por uma barra, e essas barras são agrupadas de acordo com as categorias. Essa escolha é fundamentada por diversas razões:
 
 ### Comparação Facilitada: O gráfico de barras agrupado é especialmente útil para comparar a frequência dos motivos de saída em diferentes categorias. Com um único olhar, é possível identificar quais motivos têm maior ou menor frequência em cada categoria.
@@ -66,25 +67,30 @@ O uso do Gráfico de Barras Agrupado é uma abordagem eficaz para comparar a fre
 
 ### Facilidade de Leitura: A representação visual das barras torna a interpretação acessível, mesmo para aqueles que não têm familiaridade com análises detalhadas. As cores podem ser usadas para distinguir cada motivo de saída nas diferentes categorias.
 
-## Gráfico de Dispersão
+## Gráfico de Árvore
 
-A escolha do Gráfico de Dispersão é apropriada para mostrar a relação entre as categorias "HRBP" e "Exit survey" em relação à frequência de cada motivo de saída. Nesse gráfico, cada motivo é representado como um ponto, com os eixos X e Y representando as categorias "HRBP" e "Exit survey", respectivamente. Os pontos no gráfico permitem a identificação de padrões e tendências de maneira eficiente:
+<p align="center">
+  <img src="./assets/tree-map.png" alt="Grafico de Árvore">
+</p>
 
-### Identificação de Correlações: O gráfico de dispersão permite verificar se há alguma correlação entre as respostas das pesquisas realizadas pelo setor de Recursos Humanos (HRBP) e as pesquisas de saída. Isso pode indicar se as percepções de saída dos funcionários alinham-se com as percepções do RH.
+O uso do Gráfico de Árvore nos ajuda a entender melhor a quantidade de registros de uma tabela,nesse caso o gráfico de "EXIT SURVEY", porém não temos a correlação com os dados do "HRBP",sendo necessário gerar outra visualização para fazer essa comparação.
 
-### Diferenciação de Casos Outliers: Casos outliers, ou seja, pontos que se desviam do padrão geral, podem ser rapidamente identificados no gráfico de dispersão. Isso pode levar a insights sobre motivos específicos que se destacam em relação às demais categorias.
+## Gráfico de Bolhas (Bubble Chart)
 
-## Gráfico de Linhas ou Área
+<p align="center">
+  <img src="./assets/grafico_de_bolhas.png" alt="Grafico de Bolhas">
+</p>
+A opção pelo Gráfico de Bolhas nos dá uma visualização dos dados através de bolhas onde o tamanho das bolhas são determinadas pelo poder de impacto do motivo de saída.
 
-A opção pelo Gráfico de Linhas ou Área é apropriada para visualizar a variação da frequência de cada motivo de saída em relação à ordem de classificação. Cada categoria ("Ability to impact", "HRBP" e "Exit survey") é representada por uma linha ou área. Essa escolha é justificada pelos seguintes motivos:
+## Matriz de Eisenhower
 
-### Rastreamento de Tendências: Um gráfico de linhas ou área permite identificar padrões de aumento ou diminuição na frequência dos motivos de saída à medida que eles são ordenados de acordo com seu impacto. Isso pode oferecer insights sobre a importância percebida de cada motivo.
+<p align="center">
+  <img src="./assets/matriz-de-eisenhower-quadro-1024x576.png" alt="Grafico de Bolhas">
+</p>
 
-### Comparação entre Categorias: Ao traçar as linhas ou áreas das diferentes categorias no mesmo gráfico, é possível comparar como as percepções variam entre as pesquisas do setor de Recursos Humanos e as pesquisas de saída.
+Comparando a matriz de eisenhower podemos ver a relação dos nossos gráficos iniciais com a matriz, onde podemos entender o contexto entre ability to impact e a frenquência, dessa forma podemos ter uma idéia de como foi a definição da importância do impacto da saída,temos os itens mais urgentes e imporatantes como treinamento, conflito interperssoal e carga de trabalho.
 
-Essa combinação de gráficos permite uma análise holística das causas de atrito em nossa organização de marketing, fornecendo insights que podem informar estratégias eficazes de retenção de talentos. Cada gráfico aborda um aspecto específico da análise, contribuindo para uma compreensão abrangente das tendências e relações entre os dados coletados.
-
-## Pergunta 5: Qual visualização representa melhor os dados e por quê?
+## Qual visualização representa melhor os dados ?
 
 Entre as três opções de visualização apresentadas, acredita-se que o **Gráfico de Barras Agrupado** seja a representação mais eficaz dos dados disponíveis. Vamos discutir por que essa escolha foi feita:
 
@@ -107,8 +113,6 @@ No entanto, é importante ressaltar que a combinação de diferentes visualizaç
 Em resumo, o Gráfico de Barras Agrupado é a escolha mais indicada para esta análise de atrito na organização de marketing, devido à sua capacidade de facilitar a comparação direta das frequências dos motivos de saída entre diferentes categorias. No entanto, a abordagem mais eficaz pode envolver a combinação de diferentes gráficos para uma análise abrangente e fundamentada.
 
 # Conclusão
-
-**Evidência de Entrega:**
 
 Neste projeto realizamos uma investigação profunda sobre os motivos que levaram à saída de funcionários. Utilizamos uma abordagem abrangente que envolveu a coleta, organização e análise de dados quantitativos e qualitativos de diferentes fontes, incluindo pesquisas internas de Recursos Humanos e pesquisas anônimas de saída.
 
